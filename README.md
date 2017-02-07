@@ -1,1 +1,1 @@
-# CPSC 3600 Project 1
+# CPSC 3620 Project 1
