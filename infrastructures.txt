@@ -22,4 +22,11 @@ III. Gordon
 4. SDSC's Lustre Data Oasis
 5. I think the Utah site is ideal for this infrastructure because it has flash memory available to its users. Flash-based I/O nodes may offer significant performance improvement for applications that exhibit random access data patterns or require fast access to significant amounts of scratch space. 
 
+IV. Wrangler
+1. User Guide: https://portal.xsede.org/tacc-wrangler
+2. Operating System: Linux (CentOS)
+3. Scheduler: SLURM
+4. File Systems: Lustre, NFS, HDFS, GPFS
+5. I think the Wisconsin site is ideal for this infrastructure due to the similar hardware setups. Both of these have large amounts of DDR4 ECC memory and a similar amont of nodes. Each node provides similar resources to the user.  
+
 
