@@ -1,0 +1,8 @@
+
+1. https://portal.xsede.org/sdsc-gordon
+2. Linux/Rocks
+3. Torque
+4. SDSC's Lustre Data Oasis
+5. I think the Utah site is ideal for this infrastructure because it has flash memory available to its users. Flash-based I/O nodes may offer significant performance improvement for applications that exhibit random access data patterns or require fast access to significant amounts of scratch space. 
+
+
