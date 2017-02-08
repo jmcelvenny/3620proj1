@@ -1,13 +1,21 @@
-I. Stampede Cluster
-1.User Guide: https://portal.xsede.org/tacc-stampede
-2.Operating System: Linux
-3.Scheduler: Slurm
-4.File System(s): Three Lustre parallel distributed file systems
-5.CloudLab site that best represents architecture: Clemson
+I. Beacon
+1. User Guide: https://www.nics.utk.edu/beacon
+2. Operating System: Linux
+3. Scheduler: MAOB workload manager, Torque resource manager 
+4. File System(s): NFS, Lustre, Local SSD
+5. CloudLab site that best represents architecture: Wisconsin
+  The Beacon cluster places emphasis on its high memory nodes with large amounts of SSD storage. The Wisconsin site provides many nodes with multiple cores and network I/O performance, as well as large amounts of high-speed SSD storage. 
+
+II. Stampede
+1. User Guide: https://portal.xsede.org/tacc-stampede
+2. Operating System: Linux
+3. Scheduler: Slurm
+4. File System(s): Three Lustre parallel distributed file systems
+5. CloudLab site that best represents architecture: Clemson
   The Stampede cluster is a Dell Linux cluster, designed to offer "large memory, large data transfer, and GPU capabilities for data-intensive computing." High speed data servers are also integrated into the file systems. As the Clemson CloudLab site is a Dell cluster that primarily provides high-memory nodes and a high capacity network (up to 40 Gb), it serves as a good fit. 
 
 
-II. Gordon Cluster
+III. Gordon
 1. https://portal.xsede.org/sdsc-gordon
 2. Linux/Rocks
 3. Torque
