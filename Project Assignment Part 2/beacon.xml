@@ -1,0 +1,656 @@
+<rspec xmlns="http://www.geni.net/resources/rspec/3" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" xmlns:tour="http://www.protogeni.net/resources/rspec/ext/apt-tour/1" xmlns:jacks="http://www.protogeni.net/resources/rspec/ext/jacks/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.geni.net/resources/rspec/3    http://www.geni.net/resources/rspec/3/request.xsd" type="request">
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="home" component_manager_id="urn:publicid:IDN+clemson.cloudlab.us+authority+cm" exclusive="true" component_id="urn:publicid:IDN+clemson.cloudlab.us+node+clnode041" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+72906">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/server.svg"/>
+    <routable_control_ip xmlns="http://www.protogeni.net/resources/rspec/ext/emulab/1"/>
+    <sliver_type name="raw-pc">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:CENTOS66-64-STD"/>
+    </sliver_type>
+    <services>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="jlmcelv"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="lngo"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="lngog"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="clauded"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="Horang"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="wleitne"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="coltonr"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="sdprovo"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="arzoom"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="smsouth"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="mdeange"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="dmclaug"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="cpriest"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="wboatma"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="jacksod"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="smalick"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="zderose"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="crsalte"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="akshitg"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="splatt"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="jahenli"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="smw2"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="ankitk14"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="yuhengdu"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="harshr"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="mbasha"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="kirstee"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="beaum"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="gmwatki"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="mpfiste"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="vdsmith"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="yuchena"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="jbwood"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="beg"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="Lily"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="Zhaoxid"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="wtracey"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="Rmbaxle"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="saptarp"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="dflaaten"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="rohitg"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="jrlawso"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="lilix"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="mjlowde"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="sameersi"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="jacksom"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="cedelma"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="chenq0"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="oguzzar"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="ckinzie"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="parkerd"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="ammccar"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="brw2"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="tmcvick"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="tmccabe"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="prlittl"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="mrhiggi"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="ctrull"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="mpmoers"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="mefowle"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="jlc2"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="jmw9"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="mitchell"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="maworkm"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="mdclybu"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="dmranda"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="jmkinar"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="jsavold"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="jsarasu"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="jeant"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="zeBugMan"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="milittl"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="abannis"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="kckoch"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="mmhoust"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="DSteen"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="kwang2"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="zchessm"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="adpeck"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="daj2"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="cjwest"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="sseeman"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="gacosta"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="zlemieu"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="evandorn"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="ehoneyc"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="acarrab"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="beng"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="nbravo"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="cprenti"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="acausti"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="amckim"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="bcoomes"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="dmmccoy"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="twills"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="fmclane"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="ltmorro"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="wrnewbe"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="mdrodge"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="nmichau"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="ndreed"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="gordonz"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="rmpadge"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="sepaul"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="cdunca2"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="nharrel"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="lhousie"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="rferlan"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="wrblack"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="mpennel"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="estaude"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="pspatel"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="sbbowen"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="ksemera"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="Kwcorco"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="redmon5"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="trea"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="dstieby"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="epeaire"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="zeng2"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="crode"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="acrimin"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="ckremm"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="ptafel"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="ghadams"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="jwgodwi"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="scn"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="nspecht"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="malcol2"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="sljacks"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="sbeck"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="jrangel"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="ggettin"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="pparsad"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="gapittm"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="radolph"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="lbartel"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="mbeazle"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="bkribbs"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="mloznea"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="rbecwar"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="bbest"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="bjjusti"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="jsschmi"/>
+      <login authentication="ssh-keys" hostname="clnode041.clemson.cloudlab.us" port="22" username="dungn"/>
+      <emulab:console server="boss.clemson.cloudlab.us"/>
+    </services>
+    <interface client_id="interface-8" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode041:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+72914" mac_address="008cfa5af24a">
+      <ip address="10.0.0.1" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="clnode041" hardware_type="c8220"/>
+    <host name="home.Beacon.pdc-edu-lab-PG0.clemson.cloudlab.us" ipv4="130.127.133.50"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="compute-1" component_manager_id="urn:publicid:IDN+clemson.cloudlab.us+authority+cm" exclusive="true" component_id="urn:publicid:IDN+clemson.cloudlab.us+node+clnode042" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+72907">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/server.svg"/>
+    <routable_control_ip xmlns="http://www.protogeni.net/resources/rspec/ext/emulab/1"/>
+    <sliver_type name="raw-pc">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:CENTOS66-64-STD"/>
+    </sliver_type>
+    <services>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="jlmcelv"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="lngo"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="lngog"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="clauded"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="Horang"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="wleitne"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="coltonr"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="sdprovo"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="arzoom"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="smsouth"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="mdeange"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="dmclaug"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="cpriest"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="wboatma"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="jacksod"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="smalick"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="zderose"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="crsalte"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="akshitg"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="splatt"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="jahenli"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="smw2"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="ankitk14"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="yuhengdu"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="harshr"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="mbasha"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="kirstee"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="beaum"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="gmwatki"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="mpfiste"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="vdsmith"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="yuchena"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="jbwood"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="beg"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="Lily"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="Zhaoxid"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="wtracey"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="Rmbaxle"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="saptarp"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="dflaaten"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="rohitg"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="jrlawso"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="lilix"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="mjlowde"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="sameersi"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="jacksom"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="cedelma"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="chenq0"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="oguzzar"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="ckinzie"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="parkerd"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="ammccar"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="brw2"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="tmcvick"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="tmccabe"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="prlittl"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="mrhiggi"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="ctrull"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="mpmoers"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="mefowle"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="jlc2"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="jmw9"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="mitchell"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="maworkm"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="mdclybu"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="dmranda"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="jmkinar"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="jsavold"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="jsarasu"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="jeant"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="zeBugMan"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="milittl"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="abannis"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="kckoch"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="mmhoust"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="DSteen"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="kwang2"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="zchessm"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="adpeck"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="daj2"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="cjwest"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="sseeman"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="gacosta"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="zlemieu"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="evandorn"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="ehoneyc"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="acarrab"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="beng"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="nbravo"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="cprenti"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="acausti"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="amckim"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="bcoomes"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="dmmccoy"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="twills"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="fmclane"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="ltmorro"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="wrnewbe"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="mdrodge"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="nmichau"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="ndreed"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="gordonz"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="rmpadge"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="sepaul"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="cdunca2"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="nharrel"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="lhousie"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="rferlan"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="wrblack"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="mpennel"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="estaude"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="pspatel"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="sbbowen"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="ksemera"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="Kwcorco"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="redmon5"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="trea"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="dstieby"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="epeaire"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="zeng2"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="crode"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="acrimin"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="ckremm"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="ptafel"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="ghadams"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="jwgodwi"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="scn"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="nspecht"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="malcol2"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="sljacks"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="sbeck"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="jrangel"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="ggettin"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="pparsad"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="gapittm"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="radolph"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="lbartel"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="mbeazle"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="bkribbs"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="mloznea"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="rbecwar"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="bbest"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="bjjusti"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="jsschmi"/>
+      <login authentication="ssh-keys" hostname="clnode042.clemson.cloudlab.us" port="22" username="dungn"/>
+      <emulab:console server="boss.clemson.cloudlab.us"/>
+    </services>
+    <interface client_id="interface-5" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode042:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+72913" mac_address="008cfa5afa26">
+      <ip address="10.0.0.3" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="clnode042" hardware_type="c8220"/>
+    <host name="compute-1.Beacon.pdc-edu-lab-PG0.clemson.cloudlab.us" ipv4="130.127.133.51"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="compute-2" component_manager_id="urn:publicid:IDN+clemson.cloudlab.us+authority+cm" exclusive="true" component_id="urn:publicid:IDN+clemson.cloudlab.us+node+clnode057" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+72909">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/server.svg"/>
+    <routable_control_ip xmlns="http://www.protogeni.net/resources/rspec/ext/emulab/1"/>
+    <sliver_type name="raw-pc">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:CENTOS66-64-STD"/>
+    </sliver_type>
+    <services>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="jlmcelv"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="lngo"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="lngog"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="clauded"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="Horang"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="wleitne"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="coltonr"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="sdprovo"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="arzoom"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="smsouth"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="mdeange"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="dmclaug"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="cpriest"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="wboatma"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="jacksod"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="smalick"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="zderose"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="crsalte"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="akshitg"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="splatt"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="jahenli"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="smw2"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="ankitk14"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="yuhengdu"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="harshr"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="mbasha"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="kirstee"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="beaum"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="gmwatki"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="mpfiste"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="vdsmith"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="yuchena"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="jbwood"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="beg"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="Lily"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="Zhaoxid"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="wtracey"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="Rmbaxle"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="saptarp"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="dflaaten"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="rohitg"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="jrlawso"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="lilix"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="mjlowde"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="sameersi"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="jacksom"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="cedelma"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="chenq0"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="oguzzar"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="ckinzie"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="parkerd"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="ammccar"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="brw2"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="tmcvick"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="tmccabe"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="prlittl"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="mrhiggi"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="ctrull"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="mpmoers"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="mefowle"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="jlc2"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="jmw9"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="mitchell"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="maworkm"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="mdclybu"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="dmranda"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="jmkinar"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="jsavold"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="jsarasu"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="jeant"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="zeBugMan"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="milittl"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="abannis"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="kckoch"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="mmhoust"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="DSteen"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="kwang2"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="zchessm"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="adpeck"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="daj2"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="cjwest"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="sseeman"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="gacosta"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="zlemieu"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="evandorn"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="ehoneyc"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="acarrab"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="beng"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="nbravo"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="cprenti"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="acausti"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="amckim"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="bcoomes"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="dmmccoy"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="twills"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="fmclane"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="ltmorro"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="wrnewbe"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="mdrodge"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="nmichau"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="ndreed"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="gordonz"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="rmpadge"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="sepaul"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="cdunca2"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="nharrel"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="lhousie"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="rferlan"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="wrblack"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="mpennel"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="estaude"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="pspatel"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="sbbowen"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="ksemera"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="Kwcorco"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="redmon5"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="trea"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="dstieby"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="epeaire"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="zeng2"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="crode"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="acrimin"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="ckremm"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="ptafel"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="ghadams"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="jwgodwi"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="scn"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="nspecht"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="malcol2"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="sljacks"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="sbeck"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="jrangel"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="ggettin"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="pparsad"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="gapittm"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="radolph"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="lbartel"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="mbeazle"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="bkribbs"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="mloznea"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="rbecwar"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="bbest"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="bjjusti"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="jsschmi"/>
+      <login authentication="ssh-keys" hostname="clnode057.clemson.cloudlab.us" port="22" username="dungn"/>
+      <emulab:console server="boss.clemson.cloudlab.us"/>
+    </services>
+    <interface client_id="interface-4" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode057:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+72912" mac_address="008cfa5b118e">
+      <ip address="10.0.0.4" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="clnode057" hardware_type="c8220"/>
+    <host name="compute-2.Beacon.pdc-edu-lab-PG0.clemson.cloudlab.us" ipv4="130.127.133.66"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="io" component_manager_id="urn:publicid:IDN+clemson.cloudlab.us+authority+cm" exclusive="true" component_id="urn:publicid:IDN+clemson.cloudlab.us+node+clnode043" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+72908">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/server.svg"/>
+    <sliver_type name="raw-pc">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:CENTOS66-64-STD"/>
+    </sliver_type>
+    <services>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="jlmcelv"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="lngo"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="lngog"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="clauded"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="Horang"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="wleitne"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="coltonr"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="sdprovo"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="arzoom"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="smsouth"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="mdeange"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="dmclaug"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="cpriest"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="wboatma"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="jacksod"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="smalick"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="zderose"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="crsalte"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="akshitg"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="splatt"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="jahenli"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="smw2"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="ankitk14"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="yuhengdu"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="harshr"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="mbasha"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="kirstee"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="beaum"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="gmwatki"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="mpfiste"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="vdsmith"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="yuchena"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="jbwood"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="beg"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="Lily"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="Zhaoxid"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="wtracey"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="Rmbaxle"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="saptarp"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="dflaaten"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="rohitg"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="jrlawso"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="lilix"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="mjlowde"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="sameersi"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="jacksom"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="cedelma"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="chenq0"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="oguzzar"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="ckinzie"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="parkerd"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="ammccar"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="brw2"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="tmcvick"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="tmccabe"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="prlittl"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="mrhiggi"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="ctrull"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="mpmoers"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="mefowle"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="jlc2"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="jmw9"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="mitchell"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="maworkm"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="mdclybu"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="dmranda"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="jmkinar"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="jsavold"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="jsarasu"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="jeant"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="zeBugMan"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="milittl"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="abannis"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="kckoch"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="mmhoust"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="DSteen"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="kwang2"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="zchessm"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="adpeck"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="daj2"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="cjwest"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="sseeman"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="gacosta"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="zlemieu"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="evandorn"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="ehoneyc"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="acarrab"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="beng"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="nbravo"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="cprenti"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="acausti"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="amckim"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="bcoomes"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="dmmccoy"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="twills"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="fmclane"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="ltmorro"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="wrnewbe"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="mdrodge"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="nmichau"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="ndreed"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="gordonz"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="rmpadge"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="sepaul"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="cdunca2"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="nharrel"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="lhousie"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="rferlan"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="wrblack"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="mpennel"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="estaude"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="pspatel"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="sbbowen"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="ksemera"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="Kwcorco"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="redmon5"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="trea"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="dstieby"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="epeaire"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="zeng2"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="crode"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="acrimin"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="ckremm"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="ptafel"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="ghadams"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="jwgodwi"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="scn"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="nspecht"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="malcol2"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="sljacks"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="sbeck"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="jrangel"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="ggettin"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="pparsad"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="gapittm"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="radolph"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="lbartel"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="mbeazle"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="bkribbs"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="mloznea"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="rbecwar"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="bbest"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="bjjusti"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="jsschmi"/>
+      <login authentication="ssh-keys" hostname="clnode043.clemson.cloudlab.us" port="22" username="dungn"/>
+      <emulab:console server="boss.clemson.cloudlab.us"/>
+    </services>
+    <interface client_id="interface-6" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode043:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+72915" mac_address="008cfa5b017c">
+      <ip address="10.0.0.2" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <routable_control_ip xmlns="http://www.protogeni.net/resources/rspec/ext/emulab/1"/>
+    <emulab:vnode name="clnode043" hardware_type="c8220"/>
+    <host name="io.Beacon.pdc-edu-lab-PG0.clemson.cloudlab.us" ipv4="130.127.133.52"/>
+  </node>
+  <link client_id="link-1" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+72911" vlantag="264">
+    <interface_ref client_id="interface-4" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode057:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+72912"/>
+    <interface_ref client_id="interface-5" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode042:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+72913"/>
+    <interface_ref client_id="interface-8" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode041:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+72914"/>
+    <interface_ref client_id="interface-6" component_id="urn:publicid:IDN+clemson.cloudlab.us+interface+clnode043:eth2" sliver_id="urn:publicid:IDN+clemson.cloudlab.us+sliver+72915"/>
+    <component_manager name="urn:publicid:IDN+clemson.cloudlab.us+authority+cm"/>
+  </link>
+  <rspec_tour xmlns="http://www.protogeni.net/resources/rspec/ext/apt-tour/1">
+    <description type="markdown">This profile is an experimental profile for the Beacon XPCC Architecture. It uses Torque scheduler and Lustre for parallel filesystem</description>
+    <instructions type="markdown">Just initialize it and run the setup scripts provided in the Jupyter notebook</instructions>
+  </rspec_tour>
+  <rs:site_info xmlns:rs="http://www.protogeni.net/resources/rspec/ext/site-info/1">
+    <rs:location country="US" latitude="34.586496" longitude="-82.821457"/>
+  </rs:site_info>
+</rspec>
