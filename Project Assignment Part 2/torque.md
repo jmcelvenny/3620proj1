@@ -8,6 +8,13 @@ After the CloudLab experiment has been deployed, the following information shoul
 
 Before running the script, password-less SSH must be set up between the machine running the install script and the Beacon home node. 
 
+An install of Torque and OpenMPI was attempted on the live CentOS cluster, but building this software from source created many bugs. The working Torque instance is hosted on an Ubuntu cluster. You may access it by ssh.
+
+```
+ssh root@ms0423.utah.cloudlab.us
+// password: beacon#cluster
+```
+
 ### Password-less SSH Setup
 
 ```
