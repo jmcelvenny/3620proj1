@@ -29,6 +29,6 @@ These results were analyzed to show that we have a fully functional cluster with
 
 
 
-[1]Beacon System Overview  https://www.nics.tennessee.edu/computing-resources/beacon/configuration  
+[1] Beacon System Overview  https://www.nics.tennessee.edu/computing-resources/beacon/configuration  
 [2] Star Network Topology
 http://www.conceptdraw.com/How-To-Guide/star-network-topology
