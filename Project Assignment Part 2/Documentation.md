@@ -1,5 +1,13 @@
 ## Network Topology and Node Distribution for the CloudLab Profile
 
+
+
+
+![alt tag](https://github.com/jmcelvenny/3620proj1/blob/master/Project%20Assignment%20Part%202/Topology.png)
+
+
+
+
 #### All nodes are on the Clemson cluster since CentOS was required in order to run a LustreFS server and client(s).
 
 The difference between the setup for this assignment on CloudLab and Beacon, is that Beacon runs 48 compute nodes and 6 I/O nodes while the assignment limits our nodes to 2 compute nodes, 1 I/O node, and a home node, meaning a proper ratio could not be achieved when scaling down. Only one I/O node was used since it can act as a Metadata Target (MDT), Management Server (MGS), and an Object Storage Server (OSS). It is not necessary to separate MDT/MGS from OSS. [1] Initially, our team used some CentOS nodes and some Ubuntu nodes. The CentOS nodes ran a LustreFS server while the Ubuntu nodes ran Torque. Difficulty installing a Lustre client on Ubuntu lead us to switch the whole cluster to CentOS.
